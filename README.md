@@ -1,5 +1,6 @@
 [![Build Status](https://github.com/Cosium/standard-webhooks-consumer/actions/workflows/ci.yml/badge.svg)](https://github.com/Cosium/standard-webhooks-consumer/actions/workflows/ci.yml)
-![Maven Central Version](https://img.shields.io/maven-central/v/com.cosium.standard_webhooks_consumer/standard-webhooks-consumer)
+[![Maven Central Version](https://img.shields.io/maven-central/v/com.cosium.standard_webhooks_consumer/standard-webhooks-consumer)](https://central.sonatype.com/artifact/com.cosium.standard_webhooks_consumer/standard-webhooks-consumer)
+
 
 # Standard Webhooks Consumer
 
