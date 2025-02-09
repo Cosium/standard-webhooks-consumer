@@ -15,6 +15,7 @@
   <groupId>com.cosium.standard_webhooks_consumer</groupId>
   <artifactId>standard-webhooks-consumer</artifactId>
   <version>1.2-SNAPSHOT</version>
+  <packaging>bundle</packaging>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,6 +25,8 @@
     <junit.version>5.11.4</junit.version>
     <assertj.version>3.27.3</assertj.version>
     <git-code-format-maven-plugin.version>5.3</git-code-format-maven-plugin.version>
+
+    <maven-bundle-plugin.version>5.1.9</maven-bundle-plugin.version>
   </properties>
 
   <dependencyManagement>
@@ -95,6 +98,13 @@
             <version>${git-code-format-maven-plugin.version}</version>
           </dependency>
         </dependencies>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <version>${maven-bundle-plugin.version}</version>
+        <extensions>true</extensions>
       </plugin>
     </plugins>
   </build>
