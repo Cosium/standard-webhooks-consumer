@@ -14,7 +14,7 @@
 
   <groupId>com.cosium.standard_webhooks_consumer</groupId>
   <artifactId>standard-webhooks-consumer</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.2</version>
   <packaging>bundle</packaging>
 
   <properties>
@@ -113,7 +113,7 @@
     <connection>scm:git:https://github.com/Cosium/standard-webhooks-consumer</connection>
     <developerConnection>scm:git:https://github.com/Cosium/standard-webhooks-consumer</developerConnection>
     <url>https://github.com/Cosium/standard-webhooks-consumer</url>
-    <tag>HEAD</tag>
+    <tag>1.2</tag>
   </scm>
 
   <developers>
